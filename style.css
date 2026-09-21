@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 50px;
+}
+#nav img{
+    width: 120px;
+}
+#nav #right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#nav a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1vw;
+    color: black;
+    letter-spacing: 1px;
+}
+#nav i{
+    margin-top: 3px;
+    font-size: 20px;
+
+}
+#home #homemain{
+    width: 100%;
+    padding:15vw 15vw ;
+}
+#homemain h1{
+   font-weight: 400;
+   font-size: 2.5vw;
+}
+.headings{
+    display: flex;
+    gap: 40px;
+}
+#homemain .headings h1{
+    color: transparent;
+-webkit-text-stroke: 1px #000;
+    font-weight: 600;
+    font-size: 7vw;
+    letter-spacing: -8px;
+    line-height: 1;
+}
+#homelast{
+      padding:5vw 15vw ;
+}
+#homelast p{
+    font-size: 1.8vw;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+#homelast p::selection{ 
+    background-color: black;
+    color: white;
+}
+#featured{
+    padding: 10vw 15vw;
+}
+#featured h1{
+    line-height: 1;
+    font-size: 4vw;
+    font-weight: 400;
+}
+#featured h1:nth-child(2){
+    color:transparent;
+    -webkit-text-stroke: 1px #000;
+}
+#featuredimages{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    min-height: 100vh;
+  
+    margin-top:5vw ;
+    
+}
+#fleft{
+    width: 45%;
+    min-height: inherit;
+    border: 1px solid blue;
+
+
+}
+#fright{
+    width: 45%;
+    min-height: inherit;
+    border: 1px solid rgb(211, 22, 22);
+}
+#fright .images{
+    width: 100%;
+}
